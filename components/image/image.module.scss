@@ -1,0 +1,61 @@
+.container {
+	all: unset;
+	display: grid;
+	aspect-ratio: 1;
+	background: var(--before);
+	border-radius: 14px;
+	overflow: hidden;
+	cursor: pointer;
+}
+
+.spinner {
+	grid-area: 1 / 1;
+	display: grid;
+	place-content: center;
+}
+
+.canvas {
+	grid-area: 1 / 1;
+	width: 100%;
+	height: 100%;
+}
+
+.container.active .canvas {
+	opacity: .4;
+}
+
+.border {
+	grid-area: 1 / 1;
+	contain: content;
+	border: 1px solid rgba(255, 255, 255, .1);
+	border-radius: inherit;
+}
+
+.selection {
+	grid-area: 1 / 1;
+	contain: content;
+	border: 3px solid rgba(255, 255, 255, .5);
+	opacity: .01;
+	border-radius: inherit;
+}
+
+.container:focus-visible .selection,
+.container:hover .selection {
+	opacity: .99;
+}
+
+.buttons {
+	grid-area: 1 / 1;
+	contain: content;
+	display: grid;
+	grid-auto-flow: column;
+	gap: .3em;
+	margin: .6em;
+	justify-self: end;
+	align-self: end;
+	visibility: hidden;
+}
+
+.container.active .buttons {
+	visibility: visible;
+}

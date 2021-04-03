@@ -1,0 +1,27 @@
+.container {
+	--size: 32px;
+
+	all: unset;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: var(--size);
+	height: var(--size);
+	background: var(--behind);
+	backdrop-filter: blur(2px);
+	border-radius: 100%;
+	color: var(--header);
+
+	&.destructive {
+		background: var(--destructive-background);
+		color: var(--destructive);
+	}
+}
+
+button.container {
+	cursor: pointer;
+
+	&[disabled] {
+		cursor: default;
+	}
+}

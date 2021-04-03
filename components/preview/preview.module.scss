@@ -1,0 +1,20 @@
+.container {
+	display: grid;
+	place-content: center;
+	min-height: 0;
+	margin: 1em;
+	margin-left: 0;
+}
+
+.grid {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	align-content: start;
+	gap: 1px;
+	width: 480px;
+	min-height: 0;
+	max-height: 800px;
+	background: var(--before);
+	border-radius: 28px;
+	overflow: auto;
+}

@@ -1,0 +1,27 @@
+.container {
+	display: grid;
+	aspect-ratio: 1;
+	background: var(--behind);
+}
+
+.canvas {
+	grid-area: 1 / 1;
+	width: 100%;
+	height: 100%;
+}
+
+.buttons {
+	grid-area: 1 / 1;
+	display: grid;
+	grid-auto-flow: column;
+	gap: .3em;
+	margin: .6em;
+	justify-self: end;
+	align-self: end;
+	visibility: hidden;
+}
+
+.container:focus-visible .buttons,
+.container:hover .buttons {
+	visibility: visible;
+}

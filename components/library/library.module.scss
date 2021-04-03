@@ -1,0 +1,35 @@
+.container {
+	--inner-gap: .5em;
+	--outer-gap: .8em;
+
+	position: relative;
+	display: grid;
+	min-height: 0;
+	margin: 1em;
+	margin-right: 0;
+	background: var(--before);
+	border-radius: 28px;
+	border: 1px solid rgba(255, 255, 255, .04);
+	box-shadow: 0 2px 34px rgba(0, 0, 0, .2);
+}
+
+.images {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+	grid-auto-rows: min-content;
+	align-content: start;
+	gap: var(--inner-gap);
+	padding: var(--outer-gap);
+	overflow: scroll;
+
+	&::after {
+		content: '';
+		margin-bottom: calc(var(--outer-gap) * -1);
+	}
+}
+
+.add {
+	position: absolute;
+	right: var(--outer-gap);
+	bottom: var(--outer-gap);
+}

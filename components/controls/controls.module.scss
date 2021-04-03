@@ -1,0 +1,39 @@
+.container {
+	display: grid;
+	place-content: center;
+	margin: 2em;
+}
+
+.buttons {
+	--size: 2.8em;
+
+	display: grid;
+	padding: 4px 0;
+	grid-template-columns: var(--size);
+	background: var(--behind);
+	border-radius: 100px;
+}
+
+.button {
+	all: unset;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: var(--size);
+	cursor: pointer;
+
+	&[disabled] {
+		cursor: default;
+		opacity: .4;
+	}
+
+	&.destructive {
+		color: var(--destructive);
+	}
+}
+
+.separator {
+	width: 100%;
+	height: 1px;
+	background: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, .2), rgba(255, 255, 255, 0));
+}
