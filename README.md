@@ -6,7 +6,7 @@
 
 [![Donate via PayPal](https://img.shields.io/badge/paypal-donate-009cde.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=CYKBESW577YWE)
 
-Photo feed designer that works without uploading your photos. Chrome only.
+Photo feed designer that works without uploading your photos. Under development. Chrome only.
 
 [🌍 Website](https://feedboard.vercel.app) | [🔮 Try it](https://feedboard.vercel.app)
 
