@@ -1,9 +1,9 @@
 import { useRef, useEffect } from 'react'
 
-import style from './preview.module.scss'
-
 import Placeholder from '../placeholder/Placeholder'
 import Slot from '../slot/Slot'
+
+import style from './preview.module.scss'
 
 export default function Preview(props) {
 	const grid = useRef()
