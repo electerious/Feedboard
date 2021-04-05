@@ -1,25 +1,9 @@
 html {
-	// Colors
-	--background: hsla(110, 6%, 13%, 1);
-	--before: hsla(0, 0%, 100%, .05);
-	--behind: hsla(0, 0%, 0%, .35);
-	--primary: hsla(22, 100%, 50%, 1);
-	--destructive: hsla(15, 100%, 50%, 1);
-	--destructive-background: hsla(15, 100%, 20%, .6);
-	--header: hsla(0, 0%, 100%, 1);
-	--text: hsla(0, 0%, 100%, .8);
-
-	// Sizes
-	--font-size: 140%;
-
-	// Font Families
-	--helvetica: 'Helvetica Neue', sans-serif;
-
 	// Fill the whole browser. Necessary when the body is smaller than the browser,
 	// but wants to fill the whole page using min-height.
 	width: 100%;
 	height: 100%;
 
 	// Set the font-size in the root element as rem is relative to the document root
-	font: normal 400 var(--font-size)/1.6 var(--helvetica);
+	font: normal 400 var(--font-size)/1.6 var(--font-primary);
 }

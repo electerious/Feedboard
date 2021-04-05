@@ -1,8 +1,6 @@
 body {
-	display: grid;
 	background: var(--background);
 	color: var(--text);
-	height: 100%;
 
 	// Better font rendering for Webkit and Firefox
 	-webkit-font-smoothing: antialiased;

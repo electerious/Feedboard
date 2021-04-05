@@ -22,6 +22,9 @@ export default function Layout(props) {
 				<meta property="og:title" content={ props.title } />
 				<meta property="og:description" content={ props.description } />
 				<meta property="og:image" content={ new URL('/images/og.jpg', props.url).href } />
+
+				{ /* Global styles */ }
+				<style>{ props.style }</style>
 			</Head>
 			{ props.children }
 		</>
