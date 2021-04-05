@@ -6,7 +6,7 @@ import Library from '../components/library/Library'
 import Controls from '../components/controls/Controls'
 import Preview from '../components/preview/Preview'
 
-import style from '../styles/app'
+import globalStyles from '../styles/app'
 import meta from '../data/meta'
 import useMedia from '../utils/useMedia'
 import useStack from '../utils/useStack'
@@ -43,7 +43,7 @@ export default function App() {
 	const canSwitchSlot = inactiveImages.length > 0
 
 	return (
-		<Layout style={ style } { ...meta }>
+		<Layout style={ globalStyles } { ...meta }>
 			<Library
 				images={ images }
 				onAdd={ addToLibrary }
