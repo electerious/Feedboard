@@ -14,7 +14,7 @@ export default `
 		--font-size: 140%;
 
 		/* Font Families */
-		--font-primary: 'Helvetica Neue', sans-serif;
+		--font-text: 'Helvetica Neue', sans-serif;
 	}
 
 	body {
