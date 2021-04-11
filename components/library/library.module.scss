@@ -6,11 +6,15 @@
 	display: grid;
 	min-height: 0;
 	margin: 1em;
-	margin-right: 0;
 	background: var(--before);
 	border-radius: 28px;
 	border: 1px solid rgba(255, 255, 255, .04);
 	box-shadow: 0 2px 34px rgba(0, 0, 0, .2);
+	overflow: hidden;
+
+	@media (max-width: 1000px) {
+		grid-row: 3;
+	}
 }
 
 .images {
@@ -21,6 +25,13 @@
 	gap: var(--inner-gap);
 	padding: var(--outer-gap);
 	overflow: auto;
+
+	@media (max-width: 1000px) {
+		grid-template-columns: none;
+		grid-auto-flow: column;
+		grid-auto-columns: 160px;
+		grid-auto-rows: 160px;
+	}
 
 	&::after {
 		content: '';

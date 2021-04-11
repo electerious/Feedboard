@@ -42,5 +42,10 @@ export default `
 		html {
 			--font-size: 120%;
 		}
+
+		#__next {
+			grid-template-columns: none;
+			grid-template-rows: 1fr auto min-content;
+		}
 	}
 `
