@@ -22,7 +22,9 @@
 	// This way the input is still focusable.
 	position: absolute;
 	opacity: 0;
-	top: 100%;
+	// Position it to the left (via right: 100%). The element will be focused
+	// which otherwise can cause a scroll shift in Chrome.
+	right: 100%;
 }
 
 .icon {
