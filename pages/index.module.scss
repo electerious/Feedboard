@@ -40,10 +40,10 @@
 	align-items: center;
 
 	@media (max-width: 800px) {
-		gap: 1em;
+		gap: .4em;
 	}
 
-	@media (max-width: 400px) {
+	@media (max-width: 380px) {
 		grid-auto-flow: row;
 	}
 }
@@ -79,6 +79,14 @@
 	height: 900px;
 	border: none;
 	border-radius: 34px;
+
+	@media (max-width: 1000px) {
+		height: 800px;
+	}
+
+	@media (max-width: 600px) {
+		height: 700px;
+	}
 }
 
 .blob {
