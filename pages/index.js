@@ -14,9 +14,9 @@ export default function Index() {
 			<Content>
 				<div className={ style.head }>
 					<h1 className={ style.header }>Plan &amp; Design<br />your <mark>Feed</mark></h1>
-					<p className={ style.text }>Select your photos, test which ones look good together and build your feed. Perfect for Instgram and other feed-driven sites. No sign-up, no bullshit. Just a little tool to help you present your photos in the best way possible.</p>
+					<p className={ style.text }>Add your photos and start planning your feed by finding the ones that look good together. Perfect for Instgram and other feed-driven sites. Feedboard is a free tool that will help you showcase your photos in the best way possible.</p>
 					<div className={ style.buttons }>
-						<a className={ classnames(style.button, style.primary) } href="/app">Start designing</a>
+						<a className={ classnames(style.button, style.primary) } href="/app">Design your feed</a>
 						<a className={ classnames(style.button, style.secondary) } href="https://github.com/electerious/Feedboard">See on GitHub</a>
 					</div>
 				</div>
