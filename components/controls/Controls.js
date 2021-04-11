@@ -10,11 +10,11 @@ export default function Controls(props) {
 		<div className={ style.container }>
 			<div className={ style.buttons }>
 				<button className={ style.button } disabled={ props.onAddClick == null } title="Fill preview with random images" onClick={ props.onAddClick }>
-					<ShuffleIcon size="30" />
+					<ShuffleIcon size="1.25" />
 				</button>
 				<div className={ style.separator } />
 				<button className={ classnames(style.button, style.destructive) } disabled={ props.onRemoveClick == null } title="Remove all images from preview" onClick={ props.onRemoveClick }>
-					<ChevronsIcon size="40" />
+					<ChevronsIcon size="1.7" />
 				</button>
 			</div>
 		</div>

@@ -29,7 +29,7 @@ export default function Image(props) {
 			<div className={ style.selection } />
 			<div className={ style.buttons }>
 				<CircleButton>
-					<CheckIcon size="20" />
+					<CheckIcon size="0.8" />
 				</CircleButton>
 			</div>
 		</button>

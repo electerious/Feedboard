@@ -11,7 +11,7 @@ export default `
 		--text: hsla(0, 0%, 100%, .8);
 
 		/* Sizes */
-		--font-size: 140%;
+		--font-size: 150%;
 
 		/* Font Families */
 		--font-text: 'Helvetica Neue', sans-serif;
@@ -30,5 +30,17 @@ export default `
 
 	next-route-announcer {
 		position: absolute;
+	}
+
+	@media (max-width: 1800px) {
+		html {
+			--font-size: 140%;
+		}
+	}
+
+	@media (max-width: 1000px) {
+		html {
+			--font-size: 120%;
+		}
 	}
 `

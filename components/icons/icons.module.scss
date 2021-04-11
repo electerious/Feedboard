@@ -1,7 +1,7 @@
 .container {
 	display: block;
-	width: calc(var(--size) * 1px);
-	height: calc(var(--size) * 1px);
+	width: calc(var(--size) * 1em);
+	height: calc(var(--size) * 1em);
 	fill: none;
 	stroke: currentColor;
 }

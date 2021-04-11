@@ -11,13 +11,13 @@ export default function Slot(props) {
 
 	const switchButton = (
 		<CircleButton title="Replace preview with random image" onClick={ props.onSwitchClick }>
-			<SwitchIcon size="16" />
+			<SwitchIcon size=".7" />
 		</CircleButton>
 	)
 
 	const deleteButton = (
 		<CircleButton destructive={ true } title="Delete image from preview" onClick={ props.onDeleteClick }>
-			<TrashIcon size="16" />
+			<TrashIcon size=".7" />
 		</CircleButton>
 	)
 
