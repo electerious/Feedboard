@@ -10,7 +10,7 @@ Photo feed designer that works without uploading your photos.
 
 ⚠️ Under development and Chrome only.
 
-[🌍 Website](https://feedboard.vercel.app) | [🔮 Try it](https://feedboard.vercel.app)
+[🌍 Website](https://feedboard.vercel.app) | [🔮 Try it](https://feedboard.vercel.app/app)
 
 <br/>
 
