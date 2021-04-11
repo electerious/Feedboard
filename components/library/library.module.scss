@@ -20,7 +20,7 @@
 	align-content: start;
 	gap: var(--inner-gap);
 	padding: var(--outer-gap);
-	overflow: scroll;
+	overflow: auto;
 
 	&::after {
 		content: '';
