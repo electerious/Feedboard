@@ -1,15 +1,13 @@
 .container {
 	display: grid;
-	gap: 1em;
+	gap: .8em;
 	align-content: start;
 }
 
-.icon {
-	display: flex;
-	align-items: center;
-	height: 3em;
-}
-
 .title {
+	margin-top: .4em;
 	color: var(--header);
+	font-family: var(--font-ui);
+	font-weight: 700;
+	line-height: 1.3;
 }
