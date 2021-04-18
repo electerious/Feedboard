@@ -30,10 +30,10 @@ export default function Index() {
 					</svg>
 				</div>
 				<div className={ style.features }>
-					<Feature title="A">Do proident nisi nostrud irure officia consequat esse.</Feature>
-					<Feature title="B">Exercitation id do proident nisi nostrud irure officia esse deserunt.</Feature>
-					<Feature title="C">Exercitation id do proident nisi nostrud irure officia consequat esse deserunt.</Feature>
-					<Feature title="D">Exercitation id do nisi nostrud irure officia consequat esse deserunt.</Feature>
+					<Feature title="A step ahead">Plan your feed and know which photos to post next. Always be a step ahead in your planning.</Feature>
+					<Feature title="The perfect match">See how your final feed will look and which photos work best beside each other.</Feature>
+					<Feature title="Stay safe">We don't care about your data. Your photos will stay on your device and we will never store them on a server.</Feature>
+					<Feature title="Free like a bird">No sign up, no account, no fees, no bullshit. Feedboard is free and works in your browser without installing anything.</Feature>
 				</div>
 			</Content>
 		</Layout>
