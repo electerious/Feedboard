@@ -3,8 +3,8 @@ export default `
 		/* Colors */
 		--background: hsla(45, 36%, 96%, 1);
 		--primary: hsla(22, 100%, 50%, 1);
-		--header: hsla(0, 0%, 0%, 1);
-		--text: hsla(0, 0%, 0%, .7);
+		--header: hsla(110, 6%, 13%, 1);
+		--text: hsla(110, 6%, 33%, 1);
 
 		/* Sizes */
 		--font-size: 150%;
