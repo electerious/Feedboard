@@ -132,3 +132,11 @@
 		--columns: 1;
 	}
 }
+
+.iconHighlight {
+	stroke: var(--primary);
+}
+
+.iconDefault {
+	stroke: var(--header);
+}

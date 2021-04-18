@@ -3,6 +3,10 @@ import classnames from 'classnames'
 import Layout from '../components/layout/Layout'
 import Content from '../components/content/Content'
 import Feature from '../components/feature/Feature'
+import GridIcon from '../components/icons/GridIcon'
+import MatchIcon from '../components/icons/MatchIcon'
+import LockIcon from '../components/icons/LockIcon'
+import SmileIcon from '../components/icons/SmileIcon'
 
 import globalStyles from '../styles/site'
 import meta from '../data/meta'
@@ -30,10 +34,10 @@ export default function Index() {
 					</svg>
 				</div>
 				<div className={ style.features }>
-					<Feature title="A step ahead">Plan your feed and know which photos to post next. Always be a step ahead in your planning.</Feature>
-					<Feature title="The perfect match">See how your final feed will look and which photos work best beside each other.</Feature>
-					<Feature title="Stay safe">We don't care about your data. Your photos will stay on your device and we will never store them on a server.</Feature>
-					<Feature title="Free like a bird">No sign up, no account, no fees, no bullshit. Feedboard is free and works in your browser without installing anything.</Feature>
+					<Feature icon={ <GridIcon size="3" beforeClass={ style.iconHighlight } behindClass={ style.iconDefault } /> } title="A step ahead">Plan your feed and know which photos to post next. Always be a step ahead in your planning.</Feature>
+					<Feature icon={ <MatchIcon size="3" beforeClass={ style.iconHighlight } behindClass={ style.iconDefault } /> } title="The perfect match">See how your final feed will look and which photos work best beside each other.</Feature>
+					<Feature icon={ <LockIcon size="3" beforeClass={ style.iconHighlight } behindClass={ style.iconDefault } /> } title="Stay safe">I don't care about your data. All your photos will stay on your device and Feedboard will never upload them to a server.</Feature>
+					<Feature icon={ <SmileIcon size="3" beforeClass={ style.iconHighlight } behindClass={ style.iconDefault } /> } title="Free like a bird">No sign up, no fees, no bullshit. Feedboard is open-source and works in the browser. Built to make you smile.</Feature>
 				</div>
 			</Content>
 		</Layout>

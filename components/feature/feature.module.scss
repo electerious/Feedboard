@@ -3,3 +3,13 @@
 	gap: 1em;
 	align-content: start;
 }
+
+.icon {
+	display: flex;
+	align-items: center;
+	height: 3em;
+}
+
+.title {
+	color: var(--header);
+}
